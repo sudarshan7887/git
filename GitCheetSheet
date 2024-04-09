@@ -1,0 +1,86 @@
+chek git version-> open cmd and fire following commands
+                    git --version
+
+config user name ->    
+                    git config --global user.name "Sudarshan"
+
+config user email->
+                    git config -- global user.email "sudarshanpansare22@gmail.com"
+
+show user name and email->
+                    git config --global --list
+
+Initialized a empty git Repository->
+                    git init
+
+show status    =>     
+                    git status
+
+Added one file into a stagging area from local area->
+                    git add fileName.txt
+
+Added all files
+                    git add .      //or
+                    git add -A
+
+Commit file ->
+                    git commit -m "My first commit"
+
+show commit History->
+                    git log
+
+also modified file then again add and commit
+
+Skipping file to stagging area->
+                    git commit -a -m "my second commit"
+
+show difference between origional code and modified code 
+                    git diff
+
+removed file from stagging area
+                    git rm --cached fileName.txt
+
+Push a file on github
+                    git push origin main
+
+git tag
+            1) Annotated tagging
+            2) Lightweight tagging
+
+add tag
+            git tag -a v1.0 -m "1st relese"
+
+show tags
+            git tag
+
+show content/messege of tag
+            show <tag-name>         //eg show v1.0
+
+push tag
+            git push origin <tag-name>          //git push origin v1.0
+
+    
+clone project/download project
+            git clone https---------
+
+create branch
+            git checkout -b <branch-name>       //git checkout -b feature
+
+show branch
+            git branch  /git branch -all
+
+switch to main/master branch/another branch
+            git switch <branch-name>        //git switch master
+
+delete a branch
+            git branch -d <branch-name>     //git branch -d feature
+            
+push branch
+            git push origin <branch name>   //git push origin master
+
+merge branch
+            git merge <branch-name>         // git merge feature
+
+
+
+                    
